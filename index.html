@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QA Engineer - Профессиональная визитка</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            color: #fff;
+            background: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
+            background-size: cover;
+            height: 100vh;
+            position: relative;
+        }
+        
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: -1;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        
+        header {
+            margin-bottom: 40px;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #4CAF50;
+        }
+        
+        .title {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+            font-weight: 300;
+        }
+        
+        .photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #4CAF50;
+            margin-bottom: 20px;
+        }
+        
+        .about {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            backdrop-filter: blur(5px);
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+        
+        .skill {
+            background: #4CAF50;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+        
+        .contact {
+            margin-top: 30px;
+        }
+        
+        .contact a {
+            color: #4CAF50;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+        
+        .contact a:hover {
+            color: #45a049;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: #4CAF50;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+        
+        .btn:hover {
+            background: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://i.ibb.co/cSvXmq05/57d57ea7-f74a-4bbc-8149-ac8923e9b1f7.jpg" alt="QA Engineer Photo" class="photo">
+            <h1>Ариадна Гамгия</h1>
+            <h1>Мастер по закрыванию Ящика Пандоры</h1>
+            <div class="title">QA Engineer</div>
+        </header>
+        
+        <section class="about">
+            <h2>Обо мне</h2>
+            <p>Профессиональный искатель багов. Специализируюсь на том, чтобы ломать то, что программисты так старательно строили. Люблю находить ошибки там, где их никто не ожидает!</p>
+            <p>В свободное время тренирую своих кошек искать баги (пока безрезультатно, но мы работаем над этим).</p>
+        </section>
+        
+        <section class="skills">
+            <h2 style="width: 100%;">Навыки</h2>
+            <span class="skill">Manual Testing</span>
+            <span class="skill">Тест-дизайн</span>
+            <span class="skill">Kibana</span>
+            <span class="skill">Postman</span>
+            <span class="skill">JIRA</span>
+            <span class="skill">SQL Запросы</span>
+            <span class="skill">Devtools</span>
+            <span class="skill">MongoDB</span>
+            <span class="skill">PostgreSQL</span>
+            <span class="skill">API Testing</span>
+            <span class="skill">Grafana</span>
+        </section>
+        
+        <section class="contact">
+            <h2>Контакты</h2>
+            <a href="ariadne.siberia@gmail.com">ariadne.siberia@gmail.com</a>
+            <a href="tel:+1234567890">+7 (913) 373-5133</a>
+            
+            
+            
+            <div>
+                <a href="#" class="btn">Связаться со мной</a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
